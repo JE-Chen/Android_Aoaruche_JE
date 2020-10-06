@@ -1,0 +1,1261 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    //設定區
+
+    <string name="app_name">艾奧埃盧切-JE Chen</string>
+    <!--
+Firebase用
+-->
+    <string name="version_not_ok">版本不對</string>
+    <string name="version_not_ok_message">版本不對\n請更新到正確版本\n如已經是正確版本\n且一直重複出現此訊息\n請關閉網路遊玩</string>
+    <string name="sure_look">
+        \n\n
+        選單可滑動閱讀\n\n
+        注意!\n\n
+        此欄必讀\n\n
+        使用雲端服務時\n\n
+        必須確保網路穩定\n\n
+        若網路不穩定無上傳成功\n\n
+        (不負責)\n\n
+    此雲端服務\n\n
+        主要用來手機更換時\n\n
+        傳資料給另一手機用\n\n
+        每當雲端空間將滿\n\n
+        資料將會刪除\n\n
+        所以上傳後\n\n
+        請盡速讀取\n\n
+        資料如果消失\n\n
+        不負責\n\n
+        如使用表示願意遵守
+ </string>
+    <string name="fail_read">失敗，無此帳號或無此資料</string>
+    <string name="fail_login">有欄位為空,或者密碼小於6碼</string>
+    <string name="success">成功</string>
+    <string name="success_register">成功\n請再次使用功能</string>
+    //warning
+    <string name="fail_registed">註冊失敗\n
+請檢查是否為正確電子郵件\n
+或密碼強度不足(小於6碼)\n
+或電子郵件已被使用\n
+    或者未連上網</string>
+    <string name="input_email">輸入電子信箱</string>
+    <string name="input_passward">輸入密碼</string>
+    <string name="warning">警告</string>
+    <string name="no_account">無此帳號，是否要註冊?\n
+    註冊欄請勿為空\n密碼強度至少6碼\n請使用電子信箱格式</string>
+    <string name="registered">註冊</string>
+    <string name="chancel">取消</string>
+    <string name="get">獲取資料?</string>
+    <string name="get_message">獲取資料?\n獲取後將會刪除雲端資料\n若想更換手機請再次上傳</string>
+    <string name="no_data">無此資料?</string>
+    <string name="fail">讀取失敗\n可能無這資料</string>
+    <string name="save_data">儲存資料</string>
+    <string name="save_data_message">注意!\n儲存資料時\n目前遊戲資料會重置\n請讀取以獲得紀錄</string>
+    <!--
+結束
+-->
+    //需要下載所需資源
+    <string name="need_download">需要下載所需資源</string>
+
+    <string name="need_download_messenge">請確保網路通訊良好\n
+    並儲存空間大於100MB\n只有第一次運行\n或檔案毀損\n需要下載</string>
+    //重試
+    <string name="retry">重試</string>
+    //退出
+    <string name="get_out">退出</string>
+    //這部手機沒有FB
+    <string name="not_fb">這部手機沒有FB</string>
+    //studio
+    <string name="studio">練習關卡</string>
+    //進度
+    <string name="schedule_text">進度:</string>
+    //離開戰鬥?
+    <string name="leave_fight"> 離開戰鬥?</string>
+    <string name="show_how_many_skill_points">目前擁有技能點:</string>
+    //up_dodge_lv_text
+    <string name="up_dodge_lv_text">升級閃避機率需要技能點:</string>
+    <string name="up_dodge_lv_text_2">目前閃避機率 % 數 :</string>
+    //up_miracle_of_live_lv_text
+    <string name="up_miracle_of_live_lv_text">升級復活機率需要技能點:</string>
+    <string name="up_miracle_of_live_lv_text_2">目前復活機率 % 數 :</string>
+    //up_critical_lv_text
+    <string name="up_critical_lv_text">升級爆擊機率需要技能點:</string>
+    <string name="up_critical_lv_text_2">目前爆擊機率 % 數 :</string>
+    //up_money_skill_lv_text
+    <string name="up_money_skill_lv_text">升級過關後機率增加靈魂\n需要技能點:</string>
+    <string name="up_money_skill_lv_text_2">目前增加靈魂機率 % 數 :</string>
+    //up_healing_lv_text
+    <string name="up_healing_lv_text">攻擊後回血升級需要技能點:</string>
+    <string name="up_healing_lv_text_2">目前回血數 :</string>
+    //up_dodge_lv_text
+    <string name="up_exercise_lv_text">升級身體鍛鍊需要技能點:</string>
+    <string name="up_exercise_lv_text_2">目前身體鍛鍊等級 :</string>
+    //up_dodge_lv_text
+    <string name="up_great_mage_lv_text">升級大法師修練需要技能點:</string>
+    <string name="up_great_mage_lv_text_2">目前大法師修練等級 :</string>
+
+    //練習關卡中
+    <string name="you_in_the_stage_Exercise">練習關卡中\n可按暫停退出</string>
+    //skill_up_successs
+    <string name="skill_up_successs">技能升級成功:</string>
+    //miracle
+    <string name="miracle">奇蹟發生了</string>
+    //按下確定離開戰鬥
+    <string name="click_to_leave"> 按下確定離開戰鬥</string>
+
+    //保持在此以暫停
+    <string name="hold_stop"> 或保持在此以暫停</string>
+
+    //確定
+    <string name="determine">確定</string>
+
+    //取消
+    <string name="cancel">取消</string>
+
+    //預設值
+    <string name="String_default">default</string>
+
+    //系統用字串
+    <string name="Loading_string">載入中...</string>
+    <string name="Loading_complete">載入完成</string>
+
+    //要用的字串
+    //怪物受到30點傷害
+    <string name="hunt_monster">怪物受到</string>
+    <string name="hunt_monster_1">點傷害</string>
+
+    //怪物全數死亡
+    <string name="monster_all_died">怪物全數死亡</string>
+
+    //角色目前血量
+    <string name="Hero_Now_HP">角色目前血量:</string>
+    //角色目前攻擊
+    <string name="Hero_Now_Attack">角色目前攻擊:</string>
+
+    //目前有的錢
+    <string name="how_many_coin">目前擁有:</string>
+    <string name="coin">靈魂\n</string>
+
+    //可以滑動
+    <string name="can_scroll">(可以往下滑動)\n</string>
+
+    //升級所需靈魂
+    <string name="Up_nedd_cash">升級所需靈魂:</string>
+
+    //角色死亡
+    <string name="Hero_died">角色死亡</string>
+
+    //戰術性撤退
+    <string name="Tactical_retreat">戰術性撤退</string>
+
+    <!--
+    更新說明
+    -->
+    <string name="update_what">
+       { 2017/12/11 } \n\n
+        更新\n\n
+    *更改圖板樣子\n\n
+        *新增2-1章到2-10章\n\n
+        *現在有開場動畫了(算嗎?)\n\n
+        *現在某些怪物有特殊動畫\n\n
+        *新增更新說明\n\n
+        *重新排列主介面\n\n
+        *更改文字錯誤\n\n
+        *更改生命等級錯誤\n\n
+        *更改某些按鈕的文字顏色\n\n
+        *修改某些錯誤\n\n
+         { 2017/12/24 }\n\n
+        更新\n\n
+        *移除寵物\n\n
+        *更改戰鬥系統\n\n
+        *變更血量顯示\n\n
+        *增加怪物血量\n\n
+        *移除BUG\n\n
+        *更改技能方式\n\n
+        *戰鬥中不能暫停\n\n
+        { 2017/12/24 }\n\n
+        更新\n\n
+        *更改顯示錯誤\n\n
+        *削弱技能\n\n
+        *更改技能只能在開始畫前發動\n\n
+    </string>
+
+
+    //怪物
+
+    //地區 1
+
+    <string name="monster_Dark_soul">Dark_soul</string>
+    <string name="monster_Red_eye">Red_eye</string>
+    <string name="monster_Error">Error</string>
+    <string name="monster_slime">Slime</string>
+
+    //地區二
+
+    <string name="red_eye_warrior">red_eye_warrior</string>
+    <string name="red_eye_sword">red_eye_sword</string>
+    <string name="red_eye_bow">red_eye_bow</string>
+    <string name="red_eye_hammer">red_eye_hammer</string>
+    <string name="red_eye_magician">red_eye_magician</string>
+    <string name="red_eye_boss">red_eye_boss</string>
+    //地區三
+
+    <string name="dark_normal">dark_normal</string>
+    <string name="dark_sword">dark_sword</string>
+    <string name="dark_guard">dark_guard</string>
+    <string name="dark_bow">dark_bow</string>
+    <string name="dark_balloon">dark_balloon</string>
+
+    //地區四
+
+    <string name="dark_magic">dark_magic</string>
+    <string name="dark_hammer">dark_hammer</string>
+    <string name="dark_magician">dark_magician</string>
+    <string name="polluted_cross">polluted_cross</string>
+    <string name="nothingness">nothingness</string>
+    <string name="nothingness_2">nothingness_2</string>
+
+    //地區五
+
+    <string name="square_smile_blue">square_smile_blue</string>
+    <string name="dark_eye">dark_eye</string>
+    <string name="square_smile_green">square_smile_green</string>
+    <string name="square_smile_red">square_smile_red</string>
+    <string name="square_smile_yellow">square_smile_yellow</string>
+    <string name="square_smile_three">square_smile_three</string>
+    <string name="square_smile_four">square_smile_four</string>
+
+    //地區六
+
+    <string name="fneam">fneam</string>
+    <string name="fneam_tail">fneam_tail</string>
+    <string name="fneam_tooth">fneam_tooth</string>
+    <string name="fneam_tail_tooth">fneam_tail_tooth</string>
+    <string name="insect_eye">insect_eye</string>
+    <string name="insect_eyes">insect_eyes</string>
+
+    //技能選擇區
+    //技能
+    <string name="hero_skill_is_making">技能開發中</string>
+
+    <string name="you_not_have_choice">你沒有技能\n\n請到角色技能選取</string>
+
+    <string name="you_have_choice">你有技能了</string>
+
+    <string name="you_sure_choice_skill_title">即將開始選擇技能</string>
+
+    <string name="you_sure_choice_skill_messenger">按下確定開始選擇\n\n
+    按下取消離開</string>
+
+    <string name="choice_skill_title">選擇技能中</string>
+
+    <string name="choice_skill_messenger_1">第一個問題:\n\n
+    你是誰?</string>
+
+    <string name="choice_skill_post_1">逐夢者</string>
+
+    <string name="choice_skill_nega_1">平凡人</string>
+
+    <string name="choice_skill_messenger_2_p">第二個問題:\n\n
+    如果你的命運本不該逐夢\n\n
+    你會怎麼選擇?</string>
+
+    <string name="choice_skill_post_2_p">違反天命</string>
+
+    <string name="choice_skill_nega_2_p">安於天命</string>
+
+    <string name="choice_skill_messenger_2_n">第二個問題:\n\n
+    你是否安於平凡</string>
+
+    <string name="choice_skill_post_2_n">不願安於平凡</string>
+
+    <string name="choice_skill_nega_2_n">安於平凡</string>
+
+    <string name="choice_skill_title_End">選擇技能完成</string>
+
+    <string name="cnat_skill">請在畫之前先行開啟技能</string>
+
+    <string name="choice_skill_reverse_destiny">你的技能是\n\n
+    天命違抗者\n\n
+    之後請長按盧修斯觀看介紹</string>
+
+    <string name="choice_skill_reverse_destiny_Introduction">
+    天命違抗者:\n\n
+    啟動此技能時\n\n
+        下一回合將造成\n\n
+        二倍傷害\n\n
+                冷卻六回合
+
+    </string>
+
+    <string name="choice_skill_destiny">你的技能是\n\n
+    天命順從者\n\n
+    之後請長按盧修斯觀看介紹</string>
+
+    <string name="choice_skill_destiny_Introduction">
+    天命順從者:\n\n
+    啟動此技能時\n\n
+    接下來二回合\n\n
+          (不會累加)\n\n
+        每Combo造成\n\n
+   攻擊力加上二分之一\n\n
+        攻擊力傷害\n\n
+                冷卻六回合
+    </string>
+
+    <string name="choice_skill_ordinary_no_ordinary">你的技能是\n\n
+    平凡中的不平凡\n\n
+    之後請長按盧修斯觀看介紹</string>
+
+    <string name="choice_skill_ordinary_no_ordinary_Introduction">
+    平凡中的不平凡:\n\n
+    啟動此技能時\n\n
+    接下來一回合\n\n
+        (不會累加)\n\n
+   每Combo將會回復\n\n
+    五的血量\n\n
+                冷卻六回合
+    </string>
+
+    <string name="choice_skill_ordinary">你的技能是\n\n
+    平凡的保護\n\n
+    之後請長按盧修斯觀看介紹</string>
+
+    <string name="choice_skill_ordinary_Introduction">
+    平凡的保護:\n\n
+    啟動此技能時\n\n
+          (不會累加)\n\n
+    將會格擋\n\n
+    一次傷害\n\n
+        冷卻六回合
+    </string>
+
+    <string name="not_choice_skill">你還沒選技能不要長按我!</string>
+
+    <string name="skill_cold">冷卻剩餘回合:</string>
+
+    //確定離開?
+    <string name="sure_leave">確定離開?</string>
+    //按下確定已離開遊戲
+    <string name="click_sure_leave">按下確定已離開遊戲</string>
+    //怪物在保護
+    <string name="monster_in_protect">怪物處在保護狀態\n
+    連點怪物圖片解除</string>
+    //怪物保護消失
+    <string name="monster_not_protect">怪物保護失效</string>
+
+    //特殊關卡
+    <string name="nothingness_green">nothingness_green</string>
+
+    //怪物血量剩餘:
+    <string name="Monster_HP"></string>
+
+    //怪物數量剩餘
+    <string name="how_many_monster"></string>
+
+    //角色血量剩餘:
+    <string name="Hero_HP">角色血量剩餘:</string>
+
+    //你已經死了:
+    <string name="you_are_die">現在被怪物擊敗了!\n
+    你的可能性終結了?\n
+    不要灰心繼續戰鬥!</string>
+
+    //通關
+    <string name="stage_victory">此章節通關</string>
+
+
+    <string name="choice_to_leave">選擇確定已離開</string>
+
+    <string name="tip">提示</string>
+
+
+    //tip1-1
+    <string name="tip_1_1">小提示\n
+        當描出圖板時將會對怪物發動攻擊
+    </string>
+
+    <string name="tip_1_2">小提示\n
+        當回合結束後怪物將發動攻擊
+    </string>
+    <string name="tip_1_3">小提示\n
+        每種怪物攻擊力不同，\n通常血越少攻擊越高
+    </string>
+
+    <string name="tip_1_4">小提示\n
+   每次通關都會獲得些許靈魂\n\n
+        也可能會獲得技能點
+    </string>
+
+    <string name="tip_1_5">小提示\n
+    畫圖的方向都是由左至右
+    </string>
+
+    <string name="tip_1_6">小提示\n
+   圖要求的是輪廓正確
+    </string>
+
+    <string name="tip_1_7">小提示\n
+   升級將影響角色的能力變動
+    </string>
+
+    //故事1-1 介紹
+    <string name="story_1_1_text">尚未觸碰螢幕前\n怪物不會攻擊你\n請依照下方顯示的圖板繪製咒語\n並完成這場戰鬥</string>
+    //故事1-2 介紹
+    <string name="story_1_2_text">章節1-2</string>
+    //故事1-3 介紹
+    <string name="story_1_3_text">章節1-3</string>
+    //故事1-4 介紹
+    <string name="story_1_4_text">章節1-4</string>
+    //故事1-5 介紹
+    <string name="story_1_5_text">章節1-5</string>
+    //故事1-6 介紹
+    <string name="story_1_6_text">章節1-6</string>
+    //故事1-7 介紹
+    <string name="story_1_7_text">章節1-7</string>
+    //故事1-8 介紹
+    <string name="story_1_8_text">章節1-8</string>
+    //故事1-9 介紹
+    <string name="story_1_9_text">章節1-9</string>
+    //故事1-10 介紹
+    <string name="story_1_10_text">章節1-10</string>
+    //故事1-11 介紹
+    <string name="story_1_11_text">章節1-11</string>
+    //故事1-12 介紹
+    <string name="story_1_12_text">章節1-12</string>
+    //故事1-13 介紹
+    <string name="story_1_13_text">章節1-13</string>
+    //故事1-14 介紹
+    <string name="story_1_14_text">章節1-14</string>
+    //故事1-15 介紹
+    <string name="story_1_15_text">章節1-15</string>
+    //故事1-16 介紹
+    <string name="story_1_16_text">章節1-16</string>
+    //故事1-17 介紹
+    <string name="story_1_17_text">章節1-17</string>
+    //故事1-18 介紹
+    <string name="story_1_18_text">章節1-18</string>
+    //故事1-19 介紹
+    <string name="story_1_19_text">章節1-19</string>
+    //故事1-20 介紹
+    <string name="story_1_20_text">章節1-20</string>
+    //故事1-21 介紹
+    <string name="story_1_21_text">章節1-21</string>
+    //故事1-22 介紹
+    <string name="story_1_22_text">章節1-22</string>
+    //故事1-23 介紹
+    <string name="story_1_23_text">章節1-23</string>
+    //故事1-24 介紹
+    <string name="story_1_24_text">章節1-24</string>
+    //故事1-25 介紹
+    <string name="story_1_25_text">章節1-25</string>
+    //故事1-26 介紹
+    <string name="story_1_26_text">章節1-26</string>
+    //故事1-27 介紹
+    <string name="story_1_27_text">章節1-27</string>
+    //故事1-28 介紹
+    <string name="story_1_28_text">章節1-28</string>
+    //故事1-29 介紹
+    <string name="story_1_29_text">章節1-29</string>
+    //故事1-30 介紹
+    <string name="story_1_30_text">章節1-30</string>
+    //故事1-31 介紹
+    <string name="story_1_31_text">章節1-31</string>
+    //大範圍SCROll text
+
+    //new player
+
+    <string name="new_dialog_title">練習關卡中</string>
+    <string name="new_dialog_messenge">
+        目前處於練習關卡中\n\n
+    可以按暫停按鈕退出\n\n
+        而跟著圖板繪出符文\n\n
+        將會對怪物發動攻擊\n\n
+        但是現在處於練習模式\n\n
+        怪物是無敵的\n\n
+        但是!\n\n
+        玩家也是
+    </string>
+
+    <string name="story_original">艾奧埃盧切大陸\n\n
+
+        選單可滑動閱讀\n\n
+
+        古代期間，艾奧埃盧切大陸尚未正名 \n\n
+
+        整個大陸處於分裂狀態，而這時 \n\n
+
+        一個魔物軍團 \n\n
+
+        向各地發起了攻擊 \n\n
+
+        由於先前大陸各部落間的互相戰爭\n\n
+
+        各部落都很疲累，每戰必輸\n\n
+
+        他們越來越失去希望，\n\n
+
+        就在這個絕望之際\n\n
+
+        各部落中，仍各有一人還存在希望 \n\n
+
+        部落的人已經放棄希望，\n\n
+
+        但他們仍然相信，相信著那希望\n\n
+
+        不管可能性多麼渺小\n\n
+
+        他們前往各部落間的聖地祈禱\n\n
+
+        這時神奇的事發生了\n\n
+
+        他們五個人，皆被賦予了力量\n\n
+
+        艾爾斯班達被賦予了\n\n
+
+        使用魔法的能力\n\n
+
+        盧達爾班斯被賦予了\n\n
+
+       防禦之力\n\n
+
+        奧維爾達斯被賦予了\n\n
+
+        治癒及救贖之力\n\n
+
+        埃米達爾多被賦予了\n\n
+
+        製造精良裝備的技術\n\n
+
+        切達爾斯被賦予了\n\n
+
+        鍊金之術與藥劑學\n\n
+
+        並且可以傳授給同部落的人\n\n
+
+        他們回去教導部落的人\n\n
+
+        如何使用這能力\n\n
+
+        並集結了所有學會的人展開反攻\n\n
+
+        在苦戰過後\n\n
+
+        他們擊倒了魔王\n\n
+
+        並把他的靈魂封印在各部落中間\n\n
+
+        部落的人們為了感謝這五人\n\n
+
+        決定推舉他們為王\n\n
+
+        國家以他們的名字命名\n\n
+
+        並且由他們擔任國王\n\n
+
+        稱為守護者\n\n
+
+        這片大陸也以他們的名字命名\n\n
+
+        稱為 艾奧埃盧切\n\n
+
+
+    </string>
+
+    <string name="market_text">
+
+Copyright © 2017 JE-Chen\n\n
+
+    遊戲製作者 : JE Chen \n\n
+
+    UI製作 : JE Chen \n\n
+
+    遊戲測試 : JE Chen \n\n
+
+    圖片繪製者 :\n\n
+
+        JE Chen \n\n
+
+        聖Rawrence \n\n
+        https://home.gamer.com.tw/homeindex.php?owner=TheMe0230\n\n
+        巴哈ID:TheMe0230\n\n
+        僅提供使用權，著作權歸本人所有\n\n
+
+音樂 :  \n\n
+        フリー音楽素材/魔王魂へようこそ\n\n
+      https://maoudamashii.jokersounds.com/\n\n
+
+
+    若遊玩時因為自我因素造成意外\n\n
+
+    或因為自我因素遊戲失去存檔 \n\n
+
+    一概不負責\n\n
+
+        此遊戲中JE-Chen\n\n
+
+        擁有一切決定權\n\n
+
+    以下片段為說明 :\n\n
+
+    (1) : 跟著圖板畫出咒語即能攻擊\n\n
+
+    (2) : 每次通關都能獲得一些錢 \n\n
+
+    (3) : 遊戲會自己儲存\n\n
+        但不會自動存到雲端\n\n
+        雲端用來換機的\n\n
+        (4) : 新關卡請等待作者開發\n\n
+        肝力不是無限xd\n\n
+        (5) : 如果有任何的建議\n\n
+        也請點擊開啟FB專頁\n\n
+         隨便挑一篇文留言\n\n
+        關於 JE-Chen：\n\n
+        獨立開發者\n\n
+        高職生\n\n
+        就讀於台南海事\n\n
+        電子科\n\n
+        三年級\n\n
+        邊緣人\n\n
+        愛寫程式\n\n
+        肝指數最近很高\n\n
+</string>
+
+    <string name="studio_text">
+請詳細的看完以下所有的內容\n\n
+        (1):如果有問題\n\n
+        請使用開啟FB專頁\n\n
+        隨便挑一篇文留言\n\n
+        或者開啟網頁\n\n
+        填寫表單\n\n
+(2)如果有任何的建議\n\n
+        也請點擊開啟FB專頁\n\n
+         隨便挑一篇文留言\n\n
+        或者開啟網頁\n\n
+            填寫表單\n\n
+        (3)等會使用繼續按鈕\n\n
+        將會進入練習關卡\n\n
+        依照箭頭所指點\n\n
+        即是開始點\n\n
+        (注意!)\n\n
+        正式戰鬥\n\n
+        並沒有箭頭指示\n\n
+        若要退出\n\n
+        請按暫停按鈕\n\n
+        並選擇退出\n\n
+        日後如要練習\n\n
+        請直接在主選單選擇\n\n
+        就這樣 掰掰\n\n
+    </string>
+    <string name="dont_look_studio_text">
+您在10秒內\n\n
+        已經滑到最底部了?\n\n
+        在說明文字出現後\n\n
+        必須經過10秒才能\n\n
+        點擊按鈕\n\n
+        你就大致看一下嘛?\n\n
+    </string>
+
+    <string name="nothingness_green_origin_text">
+        魔王 : 虛無 - 綠\n\n
+        誕生自綠色的怨念\n\n
+        綠在世界上\n\n
+        製造氧氣給人類\n\n
+        但是人類卻貪婪的屠殺綠\n\n
+        為了自身的利益\n\n
+        在綠的屍體上\n\n
+        搭建了房屋\n\n
+        破壞了平衡\n\n
+        虛無吸收了綠的怨念\n\n
+        進化成了虛無 - 綠
+    </string>
+
+    <string name="nothingness_green_win_text">
+  人類雖然戰勝了\n\n
+        虛無 - 綠 \n\n
+        但是這還不夠\n\n
+        只要人類\n\n
+        不停止屠殺綠\n\n
+        綠的怨念將會一直產生\n\n
+        綠將會無限重生\n\n
+        並且平衡毀壞\n\n
+        將難以回復從前\n\n
+        直到人類意識到\n\n
+        一切為時已晚...
+    </string>
+
+
+    <string name="win_1_1_text">
+
+        (1) 遊戲採時間制\n\n
+        在時間內盡量畫出符文\n\n
+
+        (2) 作畫必須一筆畫繪製完\n\n
+
+        (3) 每次通關都會拿到靈魂\n\n
+
+        (4)靈魂可用於升級\n\n
+
+        (5) 若還沒觸碰過螢幕\n\n
+        怪物不會進行攻擊\n\n
+    觸碰後必須等攻擊一次\n\n
+        才能暫停\n\n
+
+        (6)若還沒選擇技能\n\n
+        可以在主介面的\n\n
+        角色技能選擇
+
+    </string>
+    <string name="win_1_2_text">
+        盧歐\n\n
+        艾爾斯班達的\n\n
+        第五任守護者\n\n
+        艾爾斯班達是魔法之都\n\n
+        也負責維護封印\n\n
+        艾爾斯班達的守護者\n\n
+        每年都要去檢查一次封印
+    </string>
+    <string name="win_1_3_text">
+        世界其實並不完好\n\n
+        在200多年前那次大戰之後\n\n
+        雖然封印了黑衛軍\n\n
+        但魔物卻不知道什麼原因\n\n
+        急遽增加\n\n
+        各國為了保護人民\n\n
+        都築起了巨大的城牆\n\n
+        當然包括艾爾斯班達\n\n
+        就算世界目前是這樣\n\n
+        也是我們能得到最好的世界了
+    </string>
+    <string name="win_1_4_text">
+         然而這樣反而像是\n\n
+        人類把自己囚禁起來般\n\n
+        而原本和好的各國\n\n
+        也在不知道什麼時候開始\n\n
+        開始對其他國家抱持偏見\n\n
+        但是艾爾斯班達\n\n
+        屬於永久中立國\n\n
+        因為只有我們能維護封印
+    </string>
+    <string name="win_1_5_text">
+        就算這樣\n\n
+        我們也不希望和平結束\n\n
+        難保如果我們開始爭鬥\n\n
+        會造成什麼樣的下場\n\n
+        而又會有什麼樣的劫難\n\n
+        等著我們
+    </string>
+    <string name="win_1_6_text">
+盧歐先生!\n\n
+就在出發維護封印的\n\n
+前一天晚上\n\n
+我正在思考著時\n\n
+被我收養的小孩\n\n
+我給他取名做\n\n
+盧修斯\n\n
+看來他有事找我呢
+    </string>
+    <string name="win_1_7_text">
+他原本是一個單親家庭\n\n
+ 的獨生子\n\n
+        但是他父親\n\n
+        被魔物襲擊而死\n\n
+        當我得知了他的遭遇\n\n
+        我就收養了他\n\n
+        盧修斯:\n\n
+        盧歐先生\n\n
+        這次出發要準備什麼\n\n
+        盧歐:\n\n
+        我說過多少次了\n\n
+        我現在是你父親了
+    </string>
+    <string name="win_1_8_text">
+        盧修斯:\n\n
+阿，是！\n\n
+老爸\n\n
+        這次出發\n\n
+        要準備什麼呢?\n\n
+        盧歐:\n\n
+        基本食糧\n\n
+        乾糧\n\n
+        水\n\n
+        還有你的魔法書\n\n
+        你現在是守護者的兒子了\n\n
+        你可得多多認真向上\n\n
+        盧修斯:\n\n
+        是 ! 老爸 \n\n
+    </string>
+    <string name="win_1_9_text">
+        盧歐:\n\n
+雖說這樣\n\n
+但他畢竟是18歲的孩子了\n\n
+        應該不用太擔心他\n\n
+        盧修斯:\n\n
+        那生火的材料呢\n\n
+        盧歐:\n\n
+        我用火魔法就行了\n\n
+        盧修斯:\n\n
+        這樣隨便浪費魔力不好吧\n\n
+        盧歐:\n\n
+        兒子\n\n
+        你尚未累積足夠的魔力\n\n
+        擁有夠多魔力的人\n\n
+        他是可以預測未來的!
+    </string>
+    <string name="win_1_10_text">
+盧修斯:\n\n
+        那老爸\n\n
+我的未來是什麼\n\n
+        盧歐:\n\n
+        我不知道\n\n
+        盧修斯:\n\n
+        你不是可以預測未來嗎\n\n
+        盧歐:\n\n
+        是可以\n\n
+        但只能預測到很久以後的未來\nn
+        未來的可能性很多\n\n
+        其中一個是人類被魔物毀滅\n\n
+        但我覺得最不應該毀滅的是\n\n
+        有一個未來\n\n
+        人類不知節制\n\n
+        貪婪的利用一切資源\n\n
+        最終資源用盡\n\n
+        互相殘殺 奪取資源\n\n
+        最後滅亡\n\n
+        人類明明有機會\n\n
+        他們可以不要大肆浪費資源\n\n
+        他們卻自己走上終點
+
+    </string>
+    <string name="win_1_11_text">
+盧修斯:\n\n
+那還有什麼未來呢\n\n
+        盧歐:\n\n
+        不知道\n\n
+        我不願意再次觀看未來\n\n
+        而且\n\n
+        誰說一個人\n\n
+        不能改變未來呢\n\n
+        那 盧修斯\n\n
+        你的夢想是什麼
+    </string>
+    <string name="win_1_12_text">
+盧修斯:\n\n
+我的夢想嗎?\n\n
+        既然我是守護者的傳人\n\n
+        當然是保護好艾爾斯班達\n\n
+        以及艾爾斯班達的人民\n\n
+        盧歐:\n\n
+        這樣的夢想是很好的\n\n
+        我的夢想是\n\n
+        希望這世界沒有紛爭\n\n
+        希望以我個人之力\n\n
+        能改變世界的一點方向\n\n
+        使世界往好的方向走去
+    </string>
+    <string name="win_1_13_text">
+盧歐:\n\n
+        好了 盧修斯\n\n
+        你也應該要睡了\n\n
+        明天就要出發\n\n
+        維護封印路上\n\n
+        應該會有很多怪物\n\n
+        有危險記得\n\n
+        使用我教你的魔法陣
+    </string>
+    <string name="win_1_14_text">
+        隔天早上\n\n
+        盧歐帶著盧修斯\n\n
+        往封印的方向前進\n\n
+        這原本應該是趟\n\n
+        跟以往一樣\n\n
+        輕鬆來回的旅程\n\n
+        但是一切都在這次旅程\n\n
+        發生變化
+
+    </string>
+    <string name="win_1_15_text">
+盧歐帶著盧修斯走著\n\n
+        盧歐又開始說起話來了\n\n
+        盧歐:\n\n
+        盧修斯 你知道\n\n
+        守護者的力量\n\n
+        是怎麼來的\n\n
+        盧修斯:\n\n
+        我知道\n\n
+        那是血緣的繼承\n\n
+        但是也可以傳授\n\n
+        盧歐:\n\n
+        不錯嘛?\n\n
+        看來\n\n
+        你有仔細看那本書
+    </string>
+    <string name="win_1_16_text">
+        盧歐:\n\n
+其實力量不代表一切\n\n
+        世上也沒有真正的天才\n\n
+        如果你還未達到目的\n\n
+        就自暴自棄\n\n
+        沒有任何人可以拯救你\n\n
+        可是如果你天分輸人\n\n
+        你願意努力奮發\n\n
+        相信我 孩子\n\n
+        你將會比任何人\n\n
+        強大
+    </string>
+    <string name="win_1_17_text">
+盧修斯:\n\n
+        可是老爸\n\n
+        那為甚麼努力的人\n\n
+        有些還是失敗了?\n\n
+        盧歐:\n\n
+        努力縱然重要\n\n
+        但是如果目標不切實際\n\n
+        他也不會成功\n\n
+        而懷抱著夢想\n\n
+        帶著希望\n\n
+        努力向上的人\n\n
+        如果他的夢想\n\n
+        並非不切實際\n\n
+    他就會完成
+    </string>
+    <string name="win_1_18_text">
+盧修斯:\n\n
+        那老爸你呢\n\n
+        盧歐:\n\n
+        什麼? 你想說學習嗎\n\n
+        盧修斯:\n\n
+        你怎麼知道\n\n
+        盧歐:\n\n
+        我每次跟小孩說道理\n\n
+        他們總問我這個\n\n
+        盧修斯:\n\n
+        老爸!\n\n
+        我也不是小孩了\n\n
+        盧歐:\n\n
+        其實也是\n\n
+        反正 不管怎樣\n\n
+        不要以為你學習的知識\n\n
+        是一定充足的\n\n
+        不要認為學習\n\n
+        是痛苦的\n\n
+    </string>
+    <string name="win_1_19_text">
+說著說著\n\n
+        走著走著\n\n
+        走走停停的\n\n
+        盧歐一直在說道理\n\n
+        盧歐:\n\n
+        我在跟你說件事吧\n\n
+        盧修斯:\n\n
+        不是吧!老爸\n\n
+        你已經說了整路了\n\n
+        盧歐:\n\n
+        我是希望你至少\n\n
+        可以聽入一些\n\n
+        不要覺得沒用\n\n
+    </string>
+    <string name="win_1_20_text">
+一路上\n\n
+        總是可以遇到不少魔物\n\n
+        盧歐總是盡量避開\n\n
+        盧修斯:\n\n
+        老爸，為什麼都避開呢\n\n
+        盧歐:\n\n
+        就算他們是怪物\n\n
+        不代表他們就該死\n\n
+        除非他們已經為非作歹\n\n
+        才需要出手消滅\n\n
+        否則\n\n
+        不要以他們的出身\n\n
+        評斷他們的作為\n\n
+    </string>
+    <string name="win_1_21_text">
+離封印越來越近\n\n
+盧歐感到不對勁\n\n
+        但是又沒什麼怪物\n\n
+        他就繼續走著\n\n
+        只是他開始幫他的武器\n\n
+       『永晝的豐沛之力』\n\n
+        儲存能量
+    </string>
+    <string name="win_1_22_text">
+       『永晝的豐沛之力』\n\n
+盧歐的專屬武器\n\n
+        擁有能吸收太陽能\n\n
+        為魔法能量的技術\n\n
+        就算晚上\n\n
+        也能使用儲能水晶\n\n
+        儲能水晶用來儲存能量\n\n
+        以供晚上使用
+    </string>
+    <string name="win_1_23_text">
+盧歐越走越感覺不對勁\n\n
+        附近毫無聲息\n\n
+        也無小動物活動\n\n
+        一路上也只稀疏遇到\n\n
+        幾隻魔物而已\n\n
+        盧歐計算著\n\n
+        計算著機率是多少\n\n
+        封印失效的機率\n\n
+    </string>
+    <string name="win_1_24_text">
+盧歐不願意在想\n\n
+        他認為應該只是附近\n\n
+        有出現強大點的魔物\n\n
+        導致小動物逃離\n\n
+        弱小的魔物也逃跑罷了\n\n
+        但他想，如果強大的魔物\n\n
+        盧修斯應該怎麼辦?
+    </string>
+    <string name="win_1_25_text">
+        已經快走到封印處了\n\n
+越接近封印越感覺奇怪\n\n
+        盧歐發現怪物都\n\n
+        全都聚在封印\n\n
+        附近不是應該\n\n
+        有駐紮一隊\n\n
+        艾爾斯班達的\n\n
+        先行隊?
+    </string>
+    <string name="win_1_26_text">
+魔王的魂魄\n\n
+        在封印時早就分離\n\n
+        封印也分為五個\n\n
+        但盧歐這時\n\n
+        只感覺到\n\n
+        四個封印在運作
+    </string>
+    <string name="win_1_27_text">
+更靠近時\n\n
+        盧歐發現了\n\n
+        先遣隊的營地\n\n
+        但不見任何屍體\n\n
+        和正常魔物不同\n\n
+        現場一切都正常\n\n
+        只有人消失了
+    </string>
+    <string name="win_1_28_text">
+確定是魔王了\n\n
+        但是，是哪一魂甦醒呢?\n\n
+        『虛無』，『毀滅』，『邪惡』\n\n
+        『恐懼』，『終結』?\n\n
+        只有魔王能組織魔物\n\n
+        否則魔物只為自己利益而活\n\n
+        會組織也只是相信魔王\n\n
+        能帶給他們更好的未來
+    </string>
+    <string name="win_1_29_text">
+這時魔王跟魔物都出現了\n\n
+        怪物一時擁了上來\n\n
+        但盧歐還是看到\n\n
+        復活的魔王之魂是\n\n
+        『虛無』\n\n
+        看著怪物數量\n\n
+        盧歐知道\n\n
+        這場仗\n\n
+        他打不贏\n\n
+    </string>
+    <string name="win_1_30_text">
+盧歐:\n\n
+        盧修斯，我會把你傳送到\n\n
+        剛才的那片樹林\n\n
+        然後跑，頭也不回的跑\n\n
+        我把艾爾斯班達跟世界\n\n
+        託付給你了\n\n
+        魔王甦醒只是時間的問題\n\n
+        去找其他守護者\n\n
+        你必須說服他們\n\n
+        否則世界將陷入滅亡
+    </string>
+
+    <string name="win_1_31_text">
+盧修斯在午夜醒來\n\n
+        盧修斯:\n\n
+        又是那個夢嗎?\n\n
+        不斷提醒著我\n\n
+        必須完成的事\n\n
+        可是由於艾爾斯班達\n\n
+        失去了守護者\n\n
+        而在王宮裡面\n\n
+        每個人都想爭權\n\n
+        自然我無法回去\n\n
+        現在艾爾斯班達通緝了我\n\n
+        貪婪的貴族們\n\n
+        只顧自己的利益\n\n
+        也沒辦法去到各國\n\n
+        由於我是艾爾斯班達\n\n
+        的守護者繼承者(?)\n\n
+        貴族給的賞金非常高\n\n
+        想把我抓回國家關\n\n
+        我只能躲在鄉下地方\n\n
+        但常常夢到\n\n
+        那時的夢。\n\n
+        父親....\n\n
+        我真的有能力完成\n\n
+        你給予的重責大任?
+    </string>
+    <string name="win_2_1_text">
+        盧修斯經過一年躲在鄉下\n\n
+        天天並沒有鬆懈\n\n
+        每天都在修練著\n\n
+        所幸他還有著\n\n
+        盧歐給他的那本書\n\n
+        裡面全都是盧歐\n\n
+        年輕時如何修練的筆記\n\n
+        經過那本筆記\n\n
+        盧修斯是快速的進步著\n\n
+        盧修斯決定在今天啟程\n\n
+        尋求任何可能的機會\n\n
+        趕在末日來臨前\n\n
+    </string>
+    <string name="win_2_2_text">
+盧修斯準備了必需品\n\n
+        準備離開城鎮\n\n
+        城鎮的人雖然都不太認識他\n\n
+        畢竟他一直在訓練\n\n
+        幾乎都沒有甚麼\n\n
+        在跟人交流\n\n
+        但城鎮的居民\n\n
+        聽說他要離開\n\n
+        還是紛紛給了他一點禮物\n\n
+    </string>
+    <string name="win_2_3_text">
+但是盧修斯除了必需品\n\n
+        其他全都拒絕了\n\n
+        因為他不需要其他東西\n\n
+        他帶上了一些乾糧\n\n
+        裝滿水的水瓶\n\n
+        火柴等其他東西\n\n
+        裝進了那個\n\n
+        盧歐使用過的\n\n
+        老舊且泛黃\n\n
+        但他寶貝著的\n\n
+        那個龍皮背包
+    </string>
+    <string name="win_2_4_text">
+盧修斯在當天晚上\n\n
+        離開了村莊\n\n
+        村莊附近都是\n\n
+        溫和的四色史萊姆\n\n
+        遊蕩的區域\n\n
+        但只要在過去一點\n\n
+        就會到達凶狠怪物的區域
+    </string>
+    <string name="win_2_5_text">
+這邊再過去一點\n\n
+就會離開彩虹史萊姆的區域\n\n
+        到達fneam的區域了\n\n
+        那些怪獸雖然凶狠\n\n
+        而且.....\n\n
+        長的蠻噁心的\n\n
+        但是它們其實\n\n
+        也只是想保護自己的地盤
+    </string>
+    <string name="win_2_6_text">
+fneam平常都漫無目的\n\n
+在自己的區域到處閒逛\n\n
+        它們不會進到\n\n
+        其他fneam的區域\n\n
+        除非有人入侵\n\n
+        其中一隻fneam的領地\n\n
+        它們就會團結趕跑他\n\n
+    </string>
+    <string name="win_2_7_text">
+目前還沒有fneam吃人的紀錄\n\n
+        只不過被它們襲擊\n\n
+        之後死亡的人\n\n
+        不像其他魔物的襲擊\n\n
+        找不到任何屍體\n\n
+        因此\n\n
+        有人說\n\n
+        被fneam襲擊而死\n\n
+        會變成它們的一員
+    </string>
+    <string name="win_2_8_text">
+而fneam雖然眼睛退化\n\n
+        但是它們跟蟲眼合作\n\n
+        fneam負責保護蟲眼\n\n
+        而蟲眼則是幫fneam偵查\n\n
+        使得經過它們的領地\n\n
+        變得非常的困難
+    </string>
+    <string name="win_2_9_text">
+清除了一些fneam\n\n
+        跟蟲眼之後\n\n
+        突然有詭異的感覺\n\n
+        fneam都不知道為甚麼退下了\n\n
+        蟲眼也都離開了\n\n
+        剎那\n\n
+        只見遠處飄來了\n\n
+        令人全身毛骨悚然的\n\n
+        一隻蟲眼
+    </string>
+    <string name="win_2_10_text">
+打敗了那隻蟲眼後\n\n
+        fneam跟蟲眼\n\n
+        只是在旁邊撿拾\n\n
+        撿拾那隻蟲眼的屍體\n\n
+        應該用那隻嗎?\n\n
+        畢竟他像是蟲眼複合體\n\n
+        算了!\n\n
+        那隻似乎是它們的領主\n\n
+        它被打敗後\n\n
+        fneam跟蟲眼\n\n
+        都只是在附近徘迴\n\n
+        但我無意傷害更多的事物\n\n
+        就算它是魔物...
+    </string>
+
+
+
+
+
+
+
+    <!--
+       裝備區
+        -->
+    <string name="choice">選擇?</string>
+    <string name="choice_this_weapon">選擇這把武器?</string>
+    <string name="choice_this_armor">選擇這個裝備?</string>
+    <string name="sure_choice_this">確定</string>
+    <string name="not_choice_this">不</string>
+    <string name="long_click_to_ex">長按裝備以顯示說明</string>
+
+    <!--
+         武器
+        -->
+    <string name="iron_sword">普通的鐵劍\n結算攻擊力+5</string>
+    <string name="arch_sword">鼎型劍\n基礎攻擊力35%\n但結算攻擊2倍</string>
+    <string name="shadow_light_book">紀載光與黑暗的書\n每消除1Combo\n時間增加0.25秒</string>
+    <!--
+     盔甲
+         -->
+    <string name="armor">普通的盔甲\n傷害減少1%</string>
+    <string name="healing_armor">治療盔甲\n每1回合\n 回2血</string>
+    <string name="time_souls">時間靈魂\n每消除1Combo\n時間增加0.25秒</string>
+    <!--
+        藍芽區
+        -->
+    <string name="no_bluetooth">不支援藍芽！</string>
+    <string name="bluetooth_is_enable">藍芽已成功啟動！</string>
+    <string name="bluetooth_is_error">藍芽未啟動！</string>
+    <string name="find_bluetooth">尋找藍芽中！</string>
+    <string name="bluetooth_is_making">藍芽區開發中！</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">TODO</string>
+</resources>
+
+    <!--  chapter name and  content
+    每一篇章 10 ~ 30 小節
+篇章 1 : 竄改歷史的人
+篇章2 : 信仰
+篇章3 : 社會的規範
+篇章4 : 夢想
+篇章5 : 希望
+篇章6 : J
+篇章7 : E
+篇章8 : JE
+篇章9 : 被竄改的歷史 - 真相
+篇章10 : 光明璀璨的未來
+    !-->

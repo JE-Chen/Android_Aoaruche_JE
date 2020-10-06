@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="JExWhite">#ffffff</color>
+    <color name="JExRed_light_Red">#f95151</color>
+    <color name="JExGreen_light_Green">#69f26d</color>
+    <color name="JExDeep_Blue">#0004ff</color>
+    <color name="JExDeep_Red">#af0900</color>
+    <color name="JExlight_Blue">#00f2ff</color>
+    <color name="JExlight_Blue_1">#809bff</color>
+    <color name="JExyellow">#ffff00</color>
+    <color name="JExBlack">#000000</color>
+</resources>
